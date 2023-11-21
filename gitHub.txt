@@ -1,1 +1,22 @@
 git init	//initialize git
+
+
+
+PUSH
+----
+git add fileName	//add file
+git add .		//add all files
+
+git status		
+
+git commit -m "first tutorial Pushing sample HTML files"
+
+git remote -v		//check remote repository linked or not
+git remote add variable1 <remoteRepositoryLink>
+
+git push -u variable1 <branchName eg:master>
+
+
+clone
+-----
+git clone <remoteRepositoryLink>
